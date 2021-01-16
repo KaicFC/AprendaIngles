@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Retirar a sombra da ActionBar
         getSupportActionBar().setElevation(0);
+        getSupportActionBar().setTitle("Aprenda Inglês");
 
         smartTabLayout = findViewById(R.id.smartTabLayout);
         viewPager = findViewById(R.id.viewPager);
